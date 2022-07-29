@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&display=swap');
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Ibarra+Real+Nova&display=swap');
+</style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.side{
+    background-color: rgb(195, 212, 229);
+    
+    font-family: 'Edu QLD Beginner', cursive;
+    height: 100vh;
+}
+.side nav{
+    padding: 45px;
+}
+
+.side nav li{
+    list-style: none;
+    font-size: medium;
+    padding:30px 0;
+}
+
+.side nav li a{
+   text-decoration: none;
+   color: rgb(19, 21, 22);
+
+}
+
+
+.main{
+    background-color: rgb(242, 240, 238);
+    width: 90%;
+}
+
+.contain{
+    display: flex;
+    
+}
+
+.infocont{
+    background-color: rgb(239, 241, 229);
+    height: 80vh;
+    width: 70vw;
+    margin: 80px auto;
+    justify-content: space-around;
+}
+
+
+.hello{
+    height: 50%;
+   
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hello{
+    font-size: 50px;
+    font-family: 'Edu QLD Beginner', cursive;
+
+
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+.about{
+    font-size: 20px;
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+.brief{
+    font-size: 20px;
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+.but{
+    margin-top: 30px;
+
+}
+
+.but button{
+    padding: 9px 20px;
+    border-radius: 30px;
+    color: rgb(220, 228, 239);
+    background-color: rgb(39, 225, 235);
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+    cursor: pointer;
+}
+.but button:hover{
+    background-color: rgb(8, 11, 10);
+    color: rgb(255, 55, 0);
+}
+
+
+.pic img{
+      align-items:flex-end;
+    width: 240px;
+    
+}
+
+.main{
+    background-color: rgb(224, 224, 175);
+}
+
+.contact form div{
+    padding:10px ;
+
+}
+
+.abt p{
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.skilcontainer{
+    padding: 20px;
+
+}
+.skill1{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+
+.skill2{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill3{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill4{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill5{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill6{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill7{
+    width: 200px;
+    height: 5px;
+    background-color: brown;
+}
+.skill8{
+    width: 300px;
+    height: 5px;
+    background-color: brown;
+}
+.skill9{
+    width: 200px;
+    height: 5px;
+    background-color: brown;
+}
+.sidebargo{
+    transform: translate(-443,0px);
+    position: absolute;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cros{
+    margin-left: 140px;
+}
